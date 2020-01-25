@@ -3,4 +3,14 @@
     <string name="title_home">Camera</string>
     <string name="title_mood">Mood</string>
     <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Profile">Profile</string>
+    <string name="add_name">Name</string>
+    <string name="add_details">Details</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="temp">An area of user interface design that has not yet been covered in this book relates to the concept of menus within an Android application. Menus provide a mechanism for offering additional choices to the user beyond the view components that are present in the user interface layout. While there are a number of different menu systems available to the Android application developer, this chapter will focus on the more commonly used Overflow menu. The chapter will cover the creation of menus both manually via XML and visually using the Android Studio Layout Editor tool.  The overflow menu (also referred to as the options menu) is a menu that is accessible to the user from the device display and allows the developer to include other application options beyond those included in the user interface of the application. The location of the overflow menu is dependent upon the version of Android that is running on the device. With the Android 4.0 release and later, the overflow menu button is located in the top right-hand corner (﻿Figure 40-1) in the action toolbar represented by the stack of three squares:  In the above XML, the android:orderInCategory﻿ property dictates the order in which the menu items will appear within the menu when it is displayed. The app:showAsAction﻿ property, on the other hand, controls the conditions under which the corresponding item appears as an item within the action bar itself. If set to if Room, for example, the item will appear in the action bar if there is enough room. Figure 40-2 shows the effect of setting this property to ifRoom for both menu ite﻿ms: </string>
 </resources>

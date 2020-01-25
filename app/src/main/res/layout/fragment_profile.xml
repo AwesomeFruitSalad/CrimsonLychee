@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
         android:layout_width="96dp"
@@ -19,28 +21,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.062" />
 
-    <ScrollView
-        android:layout_width="430dp"
-        android:layout_height="389dp"
+    <TextView
+        android:id="@+id/name"
+        style="@style/GreenText"
+        android:layout_width="74dp"
+        android:layout_height="34dp"
+        android:text="@string/add_name"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile_image"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="0dp">
+        app:layout_constraintVertical_bias="0.12" />
 
-        <RelativeLayout
+    <ScrollView
+        android:layout_width="416dp"
+        android:layout_height="395dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="335dp">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#ffffff">
-
-            <TextView
-                android:id="@+id/sv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10sp"
-                android:layout_marginRight="10sp"
-                android:text="@string/temp"
-                android:textSize="20sp" />
-
-        </RelativeLayout>
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
