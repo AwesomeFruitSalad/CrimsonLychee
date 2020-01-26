@@ -13,7 +13,7 @@ import com.fruitsalad.crimsonlychee.R;
 import com.fruitsalad.crimsonlychee.model.Quote;
 import com.fruitsalad.crimsonlychee.retrofit.RetrofitInstance;
 import com.fruitsalad.crimsonlychee.retrofit.RetrofitService;
-import com.fruitsalad.crimsonlychee.ui.mood.pagerfragments.quotesrecycler.QuotesRecyclerViewAdapter;
+import com.fruitsalad.crimsonlychee.ui.mood.pagerfragments.recycleradapters.QuotesRecyclerViewAdapter;
 
 import java.util.List;
 

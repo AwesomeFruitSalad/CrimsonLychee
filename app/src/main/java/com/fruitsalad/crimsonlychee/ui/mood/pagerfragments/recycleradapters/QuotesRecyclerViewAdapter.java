@@ -1,4 +1,4 @@
-package com.fruitsalad.crimsonlychee.ui.mood.pagerfragments.quotesrecycler;
+package com.fruitsalad.crimsonlychee.ui.mood.pagerfragments.recycleradapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
