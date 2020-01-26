@@ -26,10 +26,10 @@ CrimsonLychee will boost your current mood. Whether you are happy, sad, angry, s
 
 Emotive analytics is an interesting blend of psychology and technology . Though arguably reductive, many facial expression detection tools lump human emotion into 7 main categories: Joy, Sadness, Anger, Fear, Surprise, Contempt, and Disgust. With facial emotion detection , algorithms detect faces within a photo or video, and sense micro expressions by analyzing the relationship between points on the face, based on curated databases compiled in academic environments.
 
-## :question: How it Workes
+## :question: How it Works
 
 * **Step1:** It will take the image of the user. The image will then be sent Affectiva API which will categorize the emotion of the user.
-* **Step2:** After detecting the emotion of the user, the app will then display quotes, posts and YouYube videos to enhance the mood of the user.
+* **Step2:** After detecting the emotion of the user, the app will then display quotes, posts and YouTube videos to elate the mood of the user.
 
 ## :star: Features
 
@@ -42,8 +42,8 @@ Emotive analytics is an interesting blend of psychology and technology . Though 
 
 * Android Studio
 * Java programming
-* Youtube API
-* Affectiva face detection API
+* YouTube API
+* Affectiva Face Detection API
 * Android NDK
 * Flask API 
 
