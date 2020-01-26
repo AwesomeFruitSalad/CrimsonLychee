@@ -1,8 +1,26 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/AwesomeFruitSalad/CrimsonLychee)
-![GitHub repo size](https://img.shields.io/github/repo-size/AwesomeFruitSalad/CrimsonLychee)
 
-# CrimsonLychee
+
+<p align="center">
+  <img src="https://i.imgur.com/pGHSHGv.jpg">
+</p>
+<p align="center">
+<p align="center">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AwesomeFruitSalad/CrimsonLychee" />
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/AwesomeFruitSalad/CrimsonLychee" />
+  
+</p>
+
+## CrimsonLychee
 CrimsonLychee will boost your current mood. Whether you are happy, sad, angry, surprised, it will present you with quotes, videos and posts that will improve your mood to a great extent. This application uses emotion recognition to predict the emotion of the user by scanning their face. 
+
+## :camera: Screenshots
+<table>
+     <tr>
+          <td><img height="500" src="https://i.imgur.com/wHEvndg.png" /><br /><center><b>Home Screen</b></center></td>
+          <td><img height="500" src="https://i.imgur.com/8Hv3rf6.png" /><br /><center><b>Mood Screen</b></center></td>
+          <td><img height="500" src="https://i.imgur.com/2Lq4DJe.png" /><br /><center><b>Profile Screen</b></center></td>
+     </tr>
+</table>
 
 ## :bulb: What is emotion recognition?
 
