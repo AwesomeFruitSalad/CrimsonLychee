@@ -4,22 +4,19 @@
     <string name="title_camera">Camera</string>
     <string name="title_mood">Mood</string>
     <string name="title_profile">Profile</string>
-    <string name="author_name">name</string>
-    <string name="author_email">Email</string>
-    <string name="author_affiliation">mobile number</string>
-
-
-        <string name="box_one">Box One</string>
-        <string name="box_two">Box Two</string>
-        <string name="box_three">Box Three</string>
-        <string name="box_four">Box Four</string>
-        <string name="box_five">Box Five</string>
-        <string name="welcome">Welcome</string>
-        <string name="to_android">to Android</string>
-        <string name="watermelony_android">Watermelon-y Android</string>
-        <string name="who_am_i">Who am I?</string>
-        <string name="title_activity_resume">ResumeActivity</string>
-        <string name="large_text">
+    <string name="box_one">Box One</string>
+    <string name="box_two">Box Two</string>
+    <string name="box_three">Box Three</string>
+    <string name="box_four">Box Four</string>
+    <string name="box_five">Box Five</string>
+    <string name="welcome">Welcome</string>
+    <string name="to_android">to Android</string>
+    <string name="author_email">abhilash.gunasegaran@gmail.com</string>
+    <string name="author_affiliation">Amrita Vishwa Vidyapeetham</string>
+    <string name="author_name">Abhilash G</string>
+    <string name="who_am_i">Who am I?</string>
+    <string name="title_activity_resume">ResumeActivity</string>
+    <string name="large_text">
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -108,10 +105,12 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-        <string name="action_settings">Settings</string>
 
-        <!-- TODO: Remove or change this placeholder text -->
-        <string name="hello_blank_fragment">Hello blank fragment</string>
-        <string name="achievement_logo">Achievement Logo</string>
-        <string name="description_user_profile_picture">User Profile Picture</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="achievement_logo">Achievement Logo</string>
+    <string name="description_user_profile_picture">User Profile Picture</string>
 </resources>
