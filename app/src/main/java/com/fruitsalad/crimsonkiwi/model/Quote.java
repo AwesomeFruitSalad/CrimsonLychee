@@ -3,8 +3,6 @@ package com.fruitsalad.crimsonkiwi.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-
 public class Quote {
 
     @SerializedName("author")
@@ -54,7 +52,11 @@ public class Quote {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this).append("author", author).append("category", category).append("id", id).append("quote", quote).toString();
+        return "Quote{" +
+                "author='" + author + '\'' +
+                ", category='" + category + '\'' +
+                ", id='" + id + '\'' +
+                ", quote='" + quote + '\'' +
+                '}';
     }
-
 }
