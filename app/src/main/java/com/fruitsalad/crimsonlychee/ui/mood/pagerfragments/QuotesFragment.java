@@ -5,6 +5,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
@@ -26,6 +27,7 @@ public class QuotesFragment extends Fragment {
 
     private RecyclerView quotesRecyclerView;
     private List<Quote> data = null;
+    private ProgressBar progressBar;
 
     public QuotesFragment() {
         // Required empty public constructor
@@ -42,6 +44,7 @@ public class QuotesFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_quotes, container, false);
         quotesRecyclerView = view.findViewById(R.id.recycler_quotes);
+        progressBar = view.findViewById(R.id.pb_quotes);
         getData();
         return view;
     }
@@ -54,6 +57,7 @@ public class QuotesFragment extends Fragment {
                 data = response.body();
                 quotesRecyclerView.setAdapter(new QuotesRecyclerViewAdapter(data));
                 Log.i("Fetched Data", data.toString());
+                progressBar.setVisibility(View.GONE);
             }
 
             @Override
@@ -62,5 +66,4 @@ public class QuotesFragment extends Fragment {
             }
         });
     }
-
 }
