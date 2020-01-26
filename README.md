@@ -25,7 +25,7 @@ Emotive analytics is an interesting blend of psychology and technology . Though 
 * XML for Layouts
 * Image Processing
 ## How to Buils ?
-Launch Android Studio
-select Open an existing Android Studio project
-select the project folder
-select menu Run -> Run 'app'
+* Launch Android Studio
+* select Open an existing Android Studio project
+* select the project folder
+* select menu Run -> Run 'app'
