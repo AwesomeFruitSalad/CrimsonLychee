@@ -85,7 +85,7 @@ public class CameraFragment extends Fragment {
         Size screen = new Size(textureView.getWidth(), textureView.getHeight()); //size of the screen
 
 
-        PreviewConfig pConfig = new PreviewConfig.Builder().setTargetAspectRatio(aspectRatio).setTargetResolution(screen).build();
+        PreviewConfig pConfig = new PreviewConfig.Builder().setTargetAspectRatio(aspectRatio).setTargetResolution(screen).setLensFacing(CameraX.LensFacing.FRONT).build();
         Preview preview = new Preview(pConfig);
 
         preview.setOnPreviewOutputUpdateListener(
@@ -103,8 +103,7 @@ public class CameraFragment extends Fragment {
                 });
 
 
-        ImageCaptureConfig imageCaptureConfig = new ImageCaptureConfig.Builder().setCaptureMode(ImageCapture.CaptureMode.MIN_LATENCY)
-                .setTargetRotation(getActivity().getWindowManager().getDefaultDisplay().getRotation()).build();
+        ImageCaptureConfig imageCaptureConfig = new ImageCaptureConfig.Builder().setLensFacing(CameraX.LensFacing.FRONT).setTargetAspectRatio(aspectRatio).setTargetResolution(screen).build();
         final ImageCapture imgCap = new ImageCapture(imageCaptureConfig);
 
         imgCapture.setOnClickListener(new View.OnClickListener() {
