@@ -66,6 +66,9 @@ dependencies {
     // Affectiva emotion recognition
     implementation 'com.affectiva.android:affdexsdk:3.2'
 
+    // YouTube Data API v3
+    implementation files(':YouTubeAndroidPlayerApi')
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
