@@ -1,13 +1,13 @@
 # CrimsonLychee
 CrimsonLychee will boost your current mood. Whether you are happy, sad, angry, surprised, it will certainly try to boost your mood to a great extent. This application will involve Face recognition, Detect Emotion and accordingly will try to make him/her happy.
 
-## How it Emotion recognised?
+## How will Emotion recognised?
 Emotive analytics is an interesting blend of psychology and technology . Though arguably reductive, many facial expression detection tools lump human emotion into 7 main categories: Joy, Sadness, Anger, Fear, Surprise, Contempt, and Disgust. With facial emotion detection , algorithms detect faces within a photo or video, and sense micro expressions by analyzing the relationship between points on the face, based on curated databases compiled in academic environments.
 
 ## How it Workes:
 
-**Step1:** It will take the image of a person then detect what is the category of his expression based on the 7 main categories.
-**Step:** AFter detecting the expresssion it will search for some quotes, posts, memes and youtube videos so that if the person is sad then it will give show some happy posts, videos and quotes.
+* **Step1:** It will take the image of a person then detect what is the category of his expression based on the 7 main categories.
+* **Step2:** AFter detecting the expresssion it will search for some quotes, posts, memes and youtube videos so that if the person is sad then it will give show some happy posts, videos and quotes.
 
 ## Features:
 
