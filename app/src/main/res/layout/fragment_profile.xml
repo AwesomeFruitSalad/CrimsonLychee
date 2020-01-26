@@ -35,9 +35,7 @@
                 android:clipChildren="false"
                 android:clipToPadding="false"
                 app:civ_border_width="2dp"
-                app:civ_border_color="#FFFFFF"
-                app:layout_collapseMode="pin"
-                app:layout_behavior="com.example.abhilashg.animations.SimpleCollapsingCircleImageViewBehavior"/>
+                app:civ_border_color="#FFFFFF" />
 
             <LinearLayout
                 android:id="@+id/linear_author_title"

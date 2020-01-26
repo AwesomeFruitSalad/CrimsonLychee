@@ -1,4 +1,4 @@
-package com.example.abhilashg.animations;
+package com.fruitsalad.crimsonlychee.animations;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -13,8 +13,6 @@ public class ViewOffsetBehavior<V extends View> extends CoordinatorLayout.Behavi
     private int mTempTopBottomOffset = 0;
     private int mTempLeftRightOffset = 0;
 
-    public ViewOffsetBehavior() {}
-
     public ViewOffsetBehavior(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
@@ -22,7 +20,7 @@ public class ViewOffsetBehavior<V extends View> extends CoordinatorLayout.Behavi
     @Override
     public boolean onLayoutChild(CoordinatorLayout parent, V child, int layoutDirection) {
         // First let lay the child out
-        layoutChild(parent, child, layoutDirection);
+        parent.onLayoutChild(child, layoutDirection);
 
         if (mViewOffsetHelper == null) {
             mViewOffsetHelper = new ViewOffsetHelper(child);

@@ -1,4 +1,4 @@
-package com.example.abhilashg.animations;
+package com.fruitsalad.crimsonlychee.animations;
 
 /*
  * Copyright (C) 2015 The Android Open Source Project

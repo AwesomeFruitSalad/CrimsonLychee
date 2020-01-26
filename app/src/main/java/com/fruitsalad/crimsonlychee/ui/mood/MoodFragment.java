@@ -17,11 +17,7 @@ import com.fruitsalad.crimsonlychee.retrofit.RetrofitInstance;
 import com.fruitsalad.crimsonlychee.retrofit.RetrofitService;
 import com.google.android.material.tabs.TabLayout;
 
-import java.util.List;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MoodFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.example.abhilashg.animations;
+package com.fruitsalad.crimsonlychee.animations;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -13,12 +13,10 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.appbar.AppBarLayout;
 
-public class CollapsingImageViewBehavior extends ViewOffsetBehavior<ImageView> {
+public class CollapsingImageViewBehavior extends com.fruitsalad.crimsonlychee.animations.ViewOffsetBehavior<ImageView> {
 
     private WindowInsetsCompat lastInsets;
 
-    public CollapsingImageViewBehavior() {
-    }
 
     public CollapsingImageViewBehavior(Context context, AttributeSet attrs) {
         super(context, attrs);

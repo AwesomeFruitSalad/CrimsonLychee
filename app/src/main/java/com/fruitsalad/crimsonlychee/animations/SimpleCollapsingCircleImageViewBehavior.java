@@ -1,4 +1,4 @@
-package com.example.abhilashg.animations;
+package com.fruitsalad.crimsonlychee.animations ;
 
 import android.content.Context;
 import android.util.AttributeSet;
